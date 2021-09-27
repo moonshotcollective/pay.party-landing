@@ -81,22 +81,28 @@ const Home = () => {
           FAQs
         </Heading>
         <Text color="purple.500" fontWeight="bold">
-          Lorem ipsum dolor sit amet?
+          Why did you build Quadratic Diplomacy?
         </Text>
         <Text>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea{" "}
+          The <a href="https://moonshotcollective.space/">Moonshot Collective</a> is looking for a decentralized way to allocate tokens to each other.  Instead of token allocation being driven by central parties, the entire collective can decide how many tokens each member of the collective gets.  This will decentralize the way members are rewarded for their participation, and lead to those whom are most familiar with each others work being responsible for allocation decision making.
         </Text>
         <Text color="purple.500" fontWeight="bold">
-          Lorem ipsum dolor sit amet?
+          Is Quadratic Diplomacy Open Source?
         </Text>
         <Text>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea{" "}
+          Yes
+        </Text>
+        <Text color="purple.500" fontWeight="bold">
+          Can I use Quadratic Diplomacy for my DAO?
+        </Text>
+        <Text>
+          Yes
+        </Text>
+        <Text color="purple.500" fontWeight="bold">
+          Does Quadratic Diplomacy cost anything?
+        </Text>
+        <Text>
+          No
         </Text>
       </VStack>
       <Divider mt="16" backgroundColor="purple.500" />
