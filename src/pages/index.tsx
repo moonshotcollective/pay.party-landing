@@ -8,7 +8,7 @@ import {
   Button,
 } from "@chakra-ui/react";
 import { useColorModeValue } from "@chakra-ui/color-mode";
-import { SimpleGrid } from "@chakra-ui/layout";
+import { Link, SimpleGrid } from "@chakra-ui/layout";
 
 import QDIcon from "../components/Icons/QDIcon";
 import Circle from "../components/Circles/Circle";
@@ -84,26 +84,33 @@ const Home = () => {
           Why did you build Quadratic Diplomacy?
         </Text>
         <Text>
-          The <a href="https://moonshotcollective.space/">Moonshot Collective</a> is looking for a decentralized way to allocate tokens to each other.  Instead of token allocation being driven by central parties, the entire collective can decide how many tokens each member of the collective gets.  This will decentralize the way members are rewarded for their participation, and lead to those whom are most familiar with each others work being responsible for allocation decision making.
+          The{" "}
+          <Link
+            textDecoration="none"
+            href="https://moonshotcollective.space/"
+            isExternal
+          >
+            Moonshot Collective
+          </Link>{" "}
+          is looking for a decentralized way to allocate tokens to each other.
+          Instead of token allocation being driven by central parties, the
+          entire collective can decide how many tokens each member of the
+          collective gets. This will decentralize the way members are rewarded
+          for their participation, and lead to those whom are most familiar with
+          each others work being responsible for allocation decision making.
         </Text>
         <Text color="purple.500" fontWeight="bold">
           Is Quadratic Diplomacy Open Source?
         </Text>
-        <Text>
-          Yes
-        </Text>
+        <Text>Yes</Text>
         <Text color="purple.500" fontWeight="bold">
           Can I use Quadratic Diplomacy for my DAO?
         </Text>
-        <Text>
-          Yes
-        </Text>
+        <Text>Yes</Text>
         <Text color="purple.500" fontWeight="bold">
           Does Quadratic Diplomacy cost anything?
         </Text>
-        <Text>
-          No
-        </Text>
+        <Text>No</Text>
       </VStack>
       <Divider mt="16" backgroundColor="purple.500" />
     </Box>
