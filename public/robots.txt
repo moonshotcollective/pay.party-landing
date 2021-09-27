@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://quadratic-diplomacy.com
+
+# Sitemaps
+Sitemap: https://quadratic-diplomacy.com/sitemap.xml
