@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://quadratic-diplomacy.com
+Host: https://quadraticdiplomacy.com
 
 # Sitemaps
-Sitemap: https://quadratic-diplomacy.com/sitemap.xml
+Sitemap: https://quadraticdiplomacy.com/sitemap.xml

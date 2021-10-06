@@ -1,24 +1,24 @@
 /** @type {import('next-seo').DefaultSeoProps} */
 const defaultSEOConfig = {
-  title: "quadratic-diplomacy",
-  titleTemplate: "%s | quadratic-diplomacy",
-  defaultTitle: "quadratic-diplomacy",
+  title: "Quadratic Diplomacy",
+  titleTemplate: "%s | Quadratic Diplomacy",
+  defaultTitle: "Quadratic Diplomacy",
   description:
     "Distribute tokens among your team members based on quadratic voting.",
-  canonical: "https://quadratic-diplomacy.com",
+  canonical: "https://quadraticdiplomacy.com",
   openGraph: {
-    url: "https://quadratic-diplomacy.com",
-    title: "quadratic-diplomacy",
+    url: "https://quadraticdiplomacy.com",
+    title: "Quadratic Diplomacy",
     description:
       "Distribute tokens among your team members based on quadratic voting.",
     //TODO: replace with qd image
     images: [
       {
         url: "",
-        alt: "quadratic-diplomacy.com og-image",
+        alt: "quadraticdiplomacy.com og-image",
       },
     ],
-    site_name: "quadratic-diplomacy",
+    site_name: "Quadratic Diplomacy",
   },
   twitter: {
     handle: "@moonshotcollect",
