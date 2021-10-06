@@ -31,9 +31,11 @@ const Home = () => {
             Distribute tokens among your team members based on quadratic voting.{" "}
           </Text>
           <Box maxW="300px" pt="10">
-            <Button w="239px" h="51px" fontSize="xl">
-              Launch App
-            </Button>
+            <Link isExternal href="https://staging.quadraticdiplomacy.com">
+              <Button w="239px" h="51px" fontSize="xl">
+                Launch App
+              </Button>
+            </Link>
           </Box>
         </VStack>
         <Box w="300px"></Box>
