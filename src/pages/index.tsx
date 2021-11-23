@@ -20,18 +20,18 @@ const Home = () => {
       <HStack>
         <VStack align="left">
           <HStack align="center">
-            <Heading color={headingColor}>Quadratic Diplomacy</Heading>
-            <QDIcon />
+            <QDIcon size={12}/>
+            <Heading color={headingColor}>pay.party</Heading>
           </HStack>
           <Text color="purple.500" fontWeight="bold">
             {" "}
             by MOONSHOT COLLECTIVE{" "}
           </Text>
           <Text pt="10" fontSize="20px">
-            Distribute tokens among your team members based on quadratic voting.{" "}
+            Distribute tokens among your team members.{" "}
           </Text>
           <Box maxW="300px" pt="10">
-            <Link isExternal href="https://app.quadraticdiplomacy.com">
+            <Link isExternal href="https://app.pay.party">
               <Button w="239px" h="51px" fontSize="xl">
                 Launch App
               </Button>
@@ -83,7 +83,7 @@ const Home = () => {
           FAQs
         </Heading>
         <Text color="purple.500" fontWeight="bold">
-          Why did you build Quadratic Diplomacy?
+          Why did you build pay.party?
         </Text>
         <Text>
           The{" "}
@@ -102,15 +102,15 @@ const Home = () => {
           each others work being responsible for allocation decision making.
         </Text>
         <Text color="purple.500" fontWeight="bold">
-          Is Quadratic Diplomacy Open Source?
+          Is pay.party Open Source?
         </Text>
         <Text>Yes</Text>
         <Text color="purple.500" fontWeight="bold">
-          Can I use Quadratic Diplomacy for my DAO?
+          Can I use pay.party for my DAO?
         </Text>
         <Text>Yes</Text>
         <Text color="purple.500" fontWeight="bold">
-          Does Quadratic Diplomacy cost anything?
+          Does pay.party cost anything?
         </Text>
         <Text>No</Text>
       </VStack>
