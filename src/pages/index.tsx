@@ -20,7 +20,7 @@ const Home = () => {
       <HStack>
         <VStack align="left">
           <HStack align="center">
-            <QDIcon size={12}/>
+            <QDIcon />
             <Heading color={headingColor}>pay.party</Heading>
           </HStack>
           <Text color="purple.500" fontWeight="bold">
