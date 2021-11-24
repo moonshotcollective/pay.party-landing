@@ -1,9 +1,9 @@
 import React from "react";
 import { Box, Icon } from "@chakra-ui/react";
 
-function QDIcon({ size }) {
+function QDIcon() {
   return (
-    <Icon viewBox="-42 -42 200 200" boxSize={size}>
+    <Icon viewBox="-42 -42 200 200" boxSize={12}>
       <path
         d="M23 109.648a7.417 7.417 0 01-6.055-3.097L1.335 84.313a7.433 7.433 0 010-8.502l15.61-22.253a7.418 7.418 0 0112.126 0L44.68 75.81a7.433 7.433 0 010 8.502l-15.61 22.253a7.451 7.451 0 01-6.07 3.082zM11.277 79.992L23 96.717 34.74 79.992 23.016 63.267 11.278 79.992z"
         fill="#6F3FF5"
