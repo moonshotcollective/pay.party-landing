@@ -31,7 +31,7 @@ const Home = () => {
             Distribute tokens among your team members.{" "}
           </Text>
           <Box maxW="300px" pt="10">
-            <Link isExternal href="https://pay-party-dev.herokuapp.com/">
+            <Link isExternal href="https://app.pay.party">
               <Button w="239px" h="51px" fontSize="xl">
                 Launch App
               </Button>
